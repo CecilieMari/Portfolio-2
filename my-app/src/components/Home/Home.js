@@ -1,7 +1,8 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./Home.module.css";
 import image1 from "../../components/img/FrameWork.png";
 import image2 from "../../components/img/eksamen.png";
+import { useRef } from "react";
 
 const projects = [
   {
@@ -22,13 +23,40 @@ const projects = [
 ];
 
 const Home = () => {
+  const projectsRef = useRef(null);
+
+  const handleScroll = () => {
+    projectsRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className="container py-5">
-      <h1 className="mb-4">Portfolio</h1>
-      <div className="row justify-content-center">
+    <div
+      className="container py-5"
+      style={{ fontFamily: "Playfair Display, serif" }}
+    >
+      <div className={styles.homePage}>
+        <h1 className="mb-4">Hey, I'm Cecilie </h1>
+        <h2 className="mb-4">
+          I design and build clean, user-friendly web experiences.
+        </h2>
+        <p>SCROLL TO EXPLORE</p>
+        <button
+          className={styles.downArrow}
+          onClick={handleScroll}
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            fontSize: "2rem",
+          }}
+          aria-label="Scroll to projects"
+        >
+          &#x2193;
+        </button>
+      </div>
+      <div ref={projectsRef} className="row justify-content-center">
         {projects.map((proj, idx) => (
           <div className="col-md-5 col-lg-4 mb-4" key={idx}>
-            <div className="card h-100 shadow-sm">
+            <div className={`card h-100 shadow-sm ${styles.projectCard}`}>
               <img
                 src={proj.image}
                 alt={proj.title}

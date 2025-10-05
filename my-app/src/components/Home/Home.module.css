@@ -1,0 +1,39 @@
+.projectCard {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.homePage {
+  margin-top: 10%;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+h1 {
+  font-size: 150px;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 90px;
+  margin-bottom: 2%;
+  font-weight: 100;
+}
+
+p {
+  
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.downArrow {
+  cursor: pointer;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  transition: transform 0.2s;
+}
+.downArrow:hover {
+  transform: scale(1.2);
+}
