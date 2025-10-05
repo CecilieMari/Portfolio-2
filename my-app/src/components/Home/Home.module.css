@@ -1,6 +1,26 @@
 .projectCard {
   font-family: 'Montserrat', sans-serif;
 }
+.projectBtn {
+  border: 1.5px solid #222;
+  background: none;
+  color: #222;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.projectBtn:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  color: #222;
+  background: none;
+}
 
 .homePage {
   margin-top: 10%;
@@ -8,21 +28,19 @@
   text-align: center;
   margin-bottom: 20%;
 }
-
-h1 {
-  font-size: 150px;
-  margin-bottom: 1rem;
+.customH1 {
+  font-size: 120px;
   font-weight: 100;
+  margin-bottom: 1rem;
 }
 
-h2 {
-  font-size: 90px;
-  margin-bottom: 2%;
+.customH2 {
+  font-size: 60px;
   font-weight: 100;
+  margin-bottom: 2rem;
 }
 
 p {
-  
   color: #555;
   font-size: 0.95rem;
 }

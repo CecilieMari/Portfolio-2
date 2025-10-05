@@ -8,7 +8,7 @@ function nav() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Portfolio
+            Cecilie Mari Monsen
           </a>
           <button
             className="navbar-toggler"
@@ -29,18 +29,8 @@ function nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
-                  -About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#projects">
-                  -Work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  -Contact
+                <a className="nav-link" href="/about">
+                  About/Contact
                 </a>
               </li>
             </ul>
