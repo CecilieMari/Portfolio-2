@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./nav.module.css";
+import { Link } from "react-router-dom";
 
-function nav() {
+function Nav() {
   return (
     <div className={styles.navbar}>
-      {/* Bootstrap Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             Cecilie Mari Monsen
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,14 +24,14 @@ function nav() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <Link className="nav-link" to="/about">
                   About/Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -40,4 +40,4 @@ function nav() {
     </div>
   );
 }
-export default nav;
+export default Nav;
