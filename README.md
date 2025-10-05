@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# 💼 Portfolio Website – Cecilie Mari Monsen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website, built with [Create React App](https://create-react-app.dev/), React, Bootstrap, and React Router.  
+The purpose of this project is to present my school assignments in a clean, professional, and editorial-inspired design.  
+The portfolio also includes an “About Me” section that introduces who I am, my background, and my creative process.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- **Home Page:**  
+  Hero introduction with smooth scroll and a preview of selected projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **About Page:**  
+  Includes a profile image and a detailed introduction about my background, creative journey, and interests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Navigation:**  
+  Responsive Bootstrap navbar with internal routing and smooth transitions.
 
-### `npm test`
+- **Styling:**  
+  Custom CSS combined with Bootstrap for responsive layout and a minimalist, magazine-inspired look.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Routing:**  
+  Client-side routing with React Router (v7) for seamless navigation without page reloads.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Purpose
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The goal of this portfolio is to demonstrate both technical and design skills learned throughout the Frontend Development studies at Noroff.  
+It’s a way to combine creativity, design thinking, and development into a single presentation of my work and personality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** (Create React App)
+- **Bootstrap 5**
+- **React Router v7**
+- **CSS Modules**
+- **Netlify** (Deployment)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/CecilieMari/Portfolio-2.git
+   cd Portfolio-2
+Install dependencies:
 
-## Learn More
+bash
+Kopier kode
+npm install
+Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Kopier kode
+npm start
+The app will run locally at:
+➡️ http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔗 Live Site & Repository
+Live Site: https://capable-quokka-572c93.netlify.app/
 
-### Code Splitting
+GitHub Repository: https://github.com/CecilieMari/Portfolio-2
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+💬 Reflection
+Building this portfolio was an opportunity to combine technical development with my love for design.
+I experimented with layout, typography, and color balance to achieve a calm, editorial aesthetic.
+Through this project, I’ve gained more confidence in React structure, routing, and component reusability — and learned how to communicate my work visually and professionally.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👩‍💻 Author
+Cecilie Mari Monsen
+Frontend Development Student @ Noroff
+📧 cecilieogco@gmail.com
+🌐 GitHub – CecilieMari
+📸 Instagram: @ceciliemarim
