@@ -42,7 +42,7 @@ function About() {
         </div>
         <div className="col-md-6">
           <p>Email: ceciliemarimonsen@gmail.com</p>
-          <p>LinkedIn: linkedin.com/in/cecilie-mari-monsen/</p>
+          <p>LinkedIn: www.linkedin.com/in/cecilie-monsen-b471662b7</p>
           <p>Instagram: @ceciliemarim</p>
         </div>
       </div>
